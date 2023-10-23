@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Common attribute*/
+.container{
+    margin: 8px 8px;
+}
+body{
+    background-color: #D9d9d9;
+}
+
+
+
+/*=======================HEADERR==============================*/
+.header{
+    display: flex;
+}
+.box{
+    background-color: #fff;
+    margin: 8px 8px;
+    width: 32%;
+    height: 261px;
+    padding: 24px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 25px;
+    border: 2px solid #fff7e8;
+}
+.box .data{
+    display: flex;
+}
+.box h2{
+    font-size: 20px;
+}
+.box .data .number{
+    font-size: 48px;
+    margin-right: 10px;
+}
+.box .desc{
+    font-size: 14px;
+}
+.box .report{
+    font-size: 14px;
+    color:#b59f78;
+}
+.box .more{
+    display: flex;
+}
+/*==================BODY=======================*/
+.body{
+    /* height: 400px; */
+}
+.top{
+    width: 45%;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+/* top month */
+.top-month{
+    width: 170px;
+    height: 128px;
+    background-color: #fff;
+    border: 2px solid #fff7e8;
+    border-radius: 15px;
+    padding: 10px 10px;
+}
+.top-month h2{
+    margin-bottom: 20px;
+}
+ .month-top{
+    text-align: center;
+}
+.top-month h2{
+    text-align: center;
+}
+.top-month .infor .month-top{
+    font-weight: 540;
+    font-size: 20px;
+}
+/* top year */
+.top-year{
+    width: 170px;
+    height: 128px;
+    background-color: #fff;
+    border: 2px solid #fff7e8;
+    border-radius: 15px;
+    padding: 10px 10px;
+}
+.top-year h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.top-year .year-top{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 530;
+}
+/* top buyer */
+.top-buyer{
+    width: 170px;
+    height: 128px;
+    background-color: #fff;
+    border: 2px solid #fff7e8;
+    border-radius: 15px;
+    padding: 10px 10px;
+    white-space: nowrap;
+}
+.top-buyer h2{
+    text-align: center;
+}
+.top-buyer .name{
+    text-align: center;
+}
+.top-buyer{
+    display: inline-block;
+    text-align: center;
+}
+.body .infor .desc{
+    font-size: 14px;
+    text-align: center;
+}
+
+.bottom{
+    width: 45%;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+    gap: 20px;
+}
+.bottom .property{
+    width: 170px;
+    height: 150px;
+    background-color: #fff;
+    border: 2px solid #fff7e8;
+    border-radius: 15px;
+    padding: 10px 10px;
+    white-space: nowrap;
+}
+.property{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-bottom: 5px; */
+}
+.bottom .customer{
+    width: 170px;
+    height: 150px;
+    background-color: #fff;
+    border: 2px solid #fff7e8;
+    border-radius: 15px;
+    padding: 10px 10px;
+    white-space: nowrap;
+}
+.customer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.bottom .award{
+    width: 170px;
+    height: 150px;
+    background-color: #fff;
+    border: 2px solid #fff7e8;
+    border-radius: 15px;
+    padding: 10px 10px;
+    white-space: nowrap;
+}
+.award{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom  .number {
+    font-size: 20px;
+    font-weight: 530;
+}
+.bottom .desc{
+    font-size: 14px;
+}
+/*==================FOOTER=================== */
+
+.footer{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+}
+
+
+/*========chat=================*/
+.avatar-group{
+    display:flex;
+    gap: 20px;
+}
+.avata:nth-child(1),
+.avata:nth-child(2)
+{
+    border: 15px solid #fff7e8 ; 
+    border-radius: 15px;
+
+}
+.avata:nth-child(3),
+.avata:nth-child(4){
+    margin-top: 15px;;
+}
+
+
+/*new deals*/
+.attribute-group{
+    display: flex;
+    justify-content: space-around;
+}
+.attribute{
+    background-color: #fff7e8;
+    padding: 5px 5px;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+}
+.attribute .desc{
+    padding-left: 10px;
+    margin-top: 3px;
+}
+
+/*top states*/
+/*chinh gi thi tu chinh lai nhe*/
