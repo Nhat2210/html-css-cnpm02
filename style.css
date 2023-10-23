@@ -33,9 +33,6 @@ body{
 .box .data{
     display: flex;
 }
-.box h2{
-    font-size: 20px;
-}
 .box .data .number{
     font-size: 48px;
     margin-right: 10px;
